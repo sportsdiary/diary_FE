@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/teamFragment">
+
+    <fragment
+        android:id="@+id/communityFragment"
+        android:name="com.lagame.sportsdiary.src.community.CommunityFragment"
+        android:label="fragment_community"
+        tools:layout="@layout/fragment_community"/>
+
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.lagame.sportsdiary.src.record.RecordFragment"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record"/>
+
+    <fragment
+        android:id="@+id/teamFragment"
+        android:name="com.lagame.sportsdiary.src.team.TeamFragment"
+        android:label="fragment_team"
+        tools:layout="@layout/fragment_team"/>
+
+    <fragment
+        android:id="@+id/configFragment"
+        android:name="com.lagame.sportsdiary.src.config.ConfigFragment"
+        android:label="fragment_config"
+        tools:layout="@layout/fragment_config"/>
+
+
+
+</navigation>
