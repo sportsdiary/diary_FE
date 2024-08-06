@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/communityFragment"
+        android:title="커뮤니티"
+       />
+
+    <item
+        android:id="@+id/recordFragment"
+        android:title="직관기록"
+     />
+
+    <item
+        android:id="@+id/teamFragment"
+        android:title="My팀"
+        />
+
+    <item
+        android:id="@+id/configFragment"
+        android:title="마이페이지"
+      />
+
+</menu>
